@@ -47,7 +47,7 @@ def SQLi_Checker():
                 l=url.split('=')[0]
                 r=url.split('=')[1]
                 eq='='
-                payloads=["'",'"',"`","/'/","'||'asd'||'","'or'1'='1","+or+1=1","'or''='",')',"')"]
+                payloads=["'",'"',"`","/'/","'or'1'='1","+or+1=1","'or''='",')',"')"]
 
                 for payload in payloads:
                     query=l+eq+r+payload
