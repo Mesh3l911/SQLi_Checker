@@ -1,7 +1,7 @@
 # ...| يالله حيهم |...
 
 # SQLi_Checker :
-It's a tool to automate the process of testing websites against SQLi.
+It's a tool to automate the process of testing websites against SQLi > Get method > based on (known) payloads list.
 ![](SQLi_CheckerCode11.png)
 
 # Installation :
